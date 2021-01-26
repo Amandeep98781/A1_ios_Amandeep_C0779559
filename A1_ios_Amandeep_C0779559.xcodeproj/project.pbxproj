@@ -13,6 +13,8 @@
 		948D8F6225BF40CC004F8B7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948D8F6025BF40CC004F8B7C /* Main.storyboard */; };
 		948D8F6425BF40CE004F8B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948D8F6325BF40CE004F8B7C /* Assets.xcassets */; };
 		948D8F6725BF40CE004F8B7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948D8F6525BF40CE004F8B7C /* LaunchScreen.storyboard */; };
+		948D8F7125BF4395004F8B7C /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D8F7025BF4395004F8B7C /* Place.swift */; };
+		948D8F7825BF4F4F004F8B7C /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = 948D8F7725BF4F4F004F8B7C /* Places.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		948D8F6325BF40CE004F8B7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		948D8F6625BF40CE004F8B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		948D8F6825BF40CE004F8B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948D8F7025BF4395004F8B7C /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		948D8F7725BF4F4F004F8B7C /* Places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				948D8F6025BF40CC004F8B7C /* Main.storyboard */,
 				948D8F6325BF40CE004F8B7C /* Assets.xcassets */,
 				948D8F6525BF40CE004F8B7C /* LaunchScreen.storyboard */,
+				948D8F7725BF4F4F004F8B7C /* Places.plist */,
+				948D8F7025BF4395004F8B7C /* Place.swift */,
 				948D8F6825BF40CE004F8B7C /* Info.plist */,
 			);
 			path = A1_ios_Amandeep_C0779559;
@@ -126,6 +132,7 @@
 			files = (
 				948D8F6725BF40CE004F8B7C /* LaunchScreen.storyboard in Resources */,
 				948D8F6425BF40CE004F8B7C /* Assets.xcassets in Resources */,
+				948D8F7825BF4F4F004F8B7C /* Places.plist in Resources */,
 				948D8F6225BF40CC004F8B7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 				948D8F5F25BF40CC004F8B7C /* ViewController.swift in Sources */,
 				948D8F5B25BF40CC004F8B7C /* AppDelegate.swift in Sources */,
 				948D8F5D25BF40CC004F8B7C /* SceneDelegate.swift in Sources */,
+				948D8F7125BF4395004F8B7C /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
